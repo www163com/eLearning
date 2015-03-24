@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.yc.eLearn</groupId>
+  <artifactId>eLearn-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  
+  <modules>
+  	<module>
+  		../basic_hibernate
+  	</module>
+  </modules>
+  
+   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <build>
+  	<pluginManagement>
+  		<plugins>
+  			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-plugins</artifactId>
+			  <version>3</version>
+			  <configuration>
+			  	<sources>1.6</sources>
+			  	<target>1.6</target>
+			  </configuration>
+  			</plugin>
+  		</plugins>
+  	</pluginManagement>
+  
+  </build>
+  
+</project>
